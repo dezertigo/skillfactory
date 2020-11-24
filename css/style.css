@@ -106,7 +106,7 @@ a {
 	box-sizing: border-box;
 	background: url(../img/offer.jpg);
 	background-size: cover;
-	padding: 194px;
+	padding: 194px 0;
 }
 
 .offer-content {
