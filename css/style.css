@@ -45,6 +45,9 @@ a {
 
 .header {
 	background-color: #000;
+	position: sticky;
+	top: 0;
+	z-index: 999;
 	
 }
 .header-content {
@@ -107,6 +110,17 @@ a {
 	background: url(../img/offer.jpg);
 	background-size: cover;
 	padding: 194px 0;
+	position: relative;
+}
+
+.offer:after {
+	content: ' ';
+	position: absolute;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color:rgba(0,0,0,0.7);
 }
 
 .offer-content {
@@ -159,15 +173,3 @@ a {
 	color: #fff;
 }
 
-.offer-overlay {
-	content: ' ';
-	position: absolute;
-	top:0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background-color:rgba(0,0,0,0.7);
-}
-.offer-container {
-	position: relative;
-}
