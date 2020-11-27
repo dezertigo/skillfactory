@@ -166,8 +166,8 @@ a {
 }
 
 .offer__button_transparent:hover {
-	background: #e3b783;
-	border: 1px solid #e3b783;
+	background: #e3b873;
+	border: 1px solid #e3b873;
 	color: #fff;
 }
 
@@ -486,3 +486,6 @@ a {
 
 /*------------------------TYPES OF REPAIR-------------------*/
 
+.repair {
+
+}
