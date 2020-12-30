@@ -746,12 +746,14 @@ a {
 .gallery__menu {
 	margin-top: 138px;
     margin-left: 99px;
-    margin-right: 250px;
+    margin-right: 200px;
 }
 
 .gallery__title {
 	color: #e3b873;
-	width: 220px;
+	width: 320px;
+	font-size: 27px;
+	line-height: 37px;
 }
 
 .gallery__menuelement {
