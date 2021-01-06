@@ -204,18 +204,16 @@ a {
 	margin-right: 40px;
 }
 
-.projects-menu__item_active {
+.projects-menu__element:hover {
 	color: #E3B873;
 	border-bottom: 1px solid #E3B873;
-	padding-bottom: 7px;
+	padding-bottom: 3px;
 }
 
 .projects-menu__element {
 	color: rgba(255,255,255,0.3);
 }
-.projects-menu__element_active {
-	color: #e3b873;
-}
+
 
 .projects__content {
 	display: flex;
@@ -582,11 +580,14 @@ a {
 	position: relative;
 	bottom: -12px;
 	padding: 17px 21px; 
-}
-
-.price__button:hover {
-	color: #e3b873;
-	background: #000;
+	cursor: default;
+	background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 1px solid #e3b873;
+    outline: 0;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .benefits {
@@ -735,7 +736,6 @@ a {
 	box-sizing: border-box;
 	background: url(../img/gallery-bg.png) top center no-repeat;
 	background-size: cover;
-	
 }
 
 .gallery-content {
@@ -762,10 +762,9 @@ a {
 	color: #fff;
 }
 
-.gallery__menuelement_active {
+.gallery__menuelement a:hover {
 	color: #e3b873;
 	border-bottom: 1px solid #e3b873;
-	width: 150px;
 }
 
 .gallery__images {
@@ -773,14 +772,9 @@ a {
 	margin-left: auto;
 }
 
-.gallery-photo {
-
-}
-
 .gallery1 {
 	position: relative;
 	top: -40px;
-	
 }
 
 .gallery2 {
@@ -921,7 +915,6 @@ a {
 	background: url(../img/contacts-bg.png) top center;
 	background-size: cover;
 	position: relative;
-	height: 950px;	
 }
 
 .contacts-mobile {
@@ -1202,6 +1195,7 @@ a {
 
 	.contacts__map_769 {
 		display: block;
+		text-align: center;
 	}
 
 	.footer-navigation {
